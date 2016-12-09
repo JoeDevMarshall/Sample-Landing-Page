@@ -1,0 +1,114 @@
+html, body {
+    background: url('../img/headphones.jpg') center center no-repeat; 
+    height: 100%;
+    background-size: cover;       
+}
+
+@media(max-width: 768px) {
+    #logo img {
+        width: 50%; 
+    }
+    
+    #counter .countdown {
+        font-size: .8em !important; 
+    }
+    
+    #icons .fa {
+        margin: 10px 2px !important; 
+        font-size: 2em; 
+    }
+    
+}
+
+@media(min-width: 321px) and (max-width: 568px) {
+
+    #logo img {
+        width: 20%; 
+    }
+    #intro p {
+        font-size: 1.2em !important; 
+    }
+    
+       #counter .countdown {
+        font-size: .7em !important; 
+        margin: 3px 5px !important;
+    }
+    
+    #signup .btn-signup {
+        margin-top: 12px; 
+        margin-left: 0px !important; 
+    }    
+}
+
+
+#logo img {
+    padding-top: 20px; 
+}
+
+#intro p {
+    color: white; 
+    text-align: center; 
+    font-family: 'Overlock', cursive;
+    font-size: 1.8em; 
+    font-kerning: auto;   
+}
+
+#counter .countdown {
+    color: white; 
+    text-align: center; 
+    font-family: 'Press Start 2P', cursive;
+    margin: 5px; 
+}
+
+#icons {
+    text-align: center; 
+}
+
+#icons .fa {
+    color: white; 
+    margin: 8px 15px; 
+    position: relative; 
+    bottom: 0; 
+    transition: all 0.3s ease-in-out; /* css transistion timing and type */
+}
+
+#icons .twitter:hover {
+    color: #6cadde; 
+    bottom: 5px;   
+}
+
+#icons .instagram:hover {
+    color: #e95950; 
+    bottom: 5px;   
+}
+
+#icons .youtube:hover {
+    color: #bb0000; 
+    bottom: 5px;   
+}
+
+#icons .podcast:hover {
+    color: #00e461; 
+    bottom: 5px;   
+}
+
+#icons .pinterest:hover {
+    color: #cb2027; 
+    bottom: 5px;   
+}
+
+#signup {
+    text-align: center; 
+    color: white; 
+}
+
+#signup .btn-signup {
+    background-color: rgba(161, 186,226, 0.7); 
+    transition: all 0.3s ease-in-out; 
+    color: white; 
+    margin-left: 5px; 
+}
+
+#signup .btn-signup:hover {
+    background-color: rgba(37, 165, 82, 1); 
+}
